@@ -1,0 +1,135 @@
+{
+  "weather_data": "data/weather_data.csv",
+  "urban_factor": 0.9,
+  "rain_exposure": 0.1,
+  "impermeable_connected_area": {
+    "a1": {
+      "area": 50,
+      "runoff_coefficient": 0.9
+    }
+  },
+  "upper_soil":{
+    "initial_S": 0.6,
+    "surface": 5.762,
+    "max_standing_water": 0.05,
+    "thickness": 0.10,
+    "bulk_density": 1.3,
+    "soil_type": "Uu",
+    "surface_resistance": 1
+  },
+  "substrate": {
+    "initial_S": 0.75,
+    "surface": 5.762,
+    "thickness": 0.15,
+    "bulk_density": 1.55,
+    "soil_type": "Sl3"
+  },
+  "drainage": {
+    "initial_S": 0.9,
+    "initial_water_level": 0.3,
+    "surface": 5.762,
+    "catch_basin_surface": 0.58,
+    "thickness": 0.35,
+    "bulk_density": 1.7,
+    "soil_type": "mS",
+    "outflow_height": 0.3
+  },
+  "plants": {
+    "overstory": {
+      "kiwi": {
+        "growth_area": 6.52,
+        "lai": [1.61,1.67],
+        "plant_factor": 0.7,
+        "wai": 0.06
+      },
+      "pipevine": {
+        "growth_area": 17.24,
+        "lai": [1.43,1.60],
+        "plant_factor": 0.2,
+        "wai": 0.06
+      },
+      "trumpetvine":{
+        "growth_area": 3.48,
+        "lai": [2.09, 0.44],
+        "plant_factor": 0.5,
+        "wai": 0.06
+      }
+      },
+    "understory": {
+      "l1":{
+        "name": "Japanese Pieris",
+        "leaf_form": "F",
+        "denseness": "D",
+        "growth_area": 0.09,
+        "plant_factor": 0.5
+      },
+      "l2": {
+        "name": "Coral Bells",
+        "leaf_form": "F",
+        "denseness": "D",
+        "growth_area": 0.063,
+        "plant_factor": 0.5
+      },
+       "l3":{
+         "name": "Ribbon Grass",
+         "leaf_form": "F",
+         "denseness": "S",
+         "growth_area": 0.063,
+         "plant_factor": 0.6
+      },
+      "l4": {
+        "name": "Japanese Pieris",
+        "leaf_form": "F",
+        "denseness": "D",
+        "growth_area": 0.01,
+        "plant_factor": 0.5
+
+      },
+       "l5":{
+         "name": "Japanese Spindle",
+         "leaf_form": "N",
+         "denseness": "D",
+         "growth_area": 0.09,
+         "plant_factor": 0.5
+      },
+      "l6": {
+        "name": "Ribbon Grass",
+        "leaf_form": "F",
+        "denseness": "S",
+        "growth_area": 0.015,
+        "plant_factor": 0.6
+      },
+       "l7":{
+         "name": "Japanese Pieris",
+         "leaf_form": "F",
+         "denseness": "S",
+         "growth_area": 0.01,
+         "plant_factor": 0.5
+      },
+      "l8": {
+        "name": "Rhododendron Ferrugineum",
+        "leaf_form": "F",
+        "denseness": "S",
+        "growth_area": 0.13,
+        "plant_factor": 0.5
+      },
+       "l9":{
+         "name": "Lemon Thyme",
+         "leaf_form": "N",
+         "denseness": "D",
+         "growth_area": 0.09,
+         "plant_factor": 0.2
+
+      },
+      "l10": {
+        "name": "Japanese Pieris",
+        "leaf_form": "F",
+        "denseness": "D",
+        "growth_area": 0.16,
+        "plant_factor": 0.5
+
+      }
+    }
+  }
+
+}

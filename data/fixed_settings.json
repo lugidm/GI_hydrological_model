@@ -1,0 +1,7 @@
+{
+  "van_genuchten_file": "data/vanGenuchtenParams.csv",
+  "field_capacities_file": "data/field_capacity.csv",
+  "k_s_file": "data/k_S.csv",
+  "pore_volume_file": "data/pore_volume.csv",
+  "shrubs_file": "data/shrubs.csv"
+}
